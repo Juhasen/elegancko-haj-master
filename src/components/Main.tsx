@@ -4,11 +4,12 @@ import "../scss/main.scss";
 function Main() {
   return (
     <>
-      <Container style={{minHeight:'125vh'}}>
-        <Row className="justify-content-center app-mainpage">
+      <Container style={{minHeight:'125vh'}} className="app-main-page">
+        <h1>Szkoła letnia</h1>
+        <h3>Nie przegap okazji!</h3>
+        <Row className="app-mainpage">
           <Col xs={12} sm={11} md={9} lg={7}>
-            <h1>Szkoła letnia</h1>
-            <h3>Nie przegap okazji!</h3>
+            <h2 className="app-mainpage-date">14-29/07/2023</h2>
 
             <p>
               Czy kiedykolwiek zastanawialiście się, jak działa sztuczna

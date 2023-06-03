@@ -47,7 +47,7 @@ function FormEnrol() {
       if (userAlreadyInUser == false) {
         await axios.post("http://localhost:8888/participants", formData);
         setSuccess(true);
-        const responseEmail = await emailjs.send("service_rnayfwh","template_s8qx4qk",{
+        await emailjs.send("service_rnayfwh","template_s8qx4qk",{
           'to_name':`${formData.firstname} ${formData.lastname}`,
           'reply_to':"wiktor09112@wp.pl",
           'recv_email':formData.email
