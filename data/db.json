@@ -1,0 +1,103 @@
+{
+  "participants": [
+    {
+      "email": "wiktor09112@wp.pl",
+      "firstname": "Wiktor",
+      "lastname": "Nowicki",
+      "gender": "male",
+      "city": "Sędziejowice",
+      "postalCode": "98-160",
+      "street": "Kamostek 9",
+      "phone": "726326575",
+      "id": 1
+    },
+    {
+      "email": "wiktorn092211@gmail.com",
+      "firstname": "Wiktor",
+      "lastname": "Nowicki",
+      "gender": "female",
+      "city": "Sędziejowice",
+      "postalCode": "98-160",
+      "street": "Kamostek",
+      "phone": "726326575",
+      "id": 2
+    },
+    {
+      "email": "wiktor09112@wp.pld",
+      "firstname": "Wiktor",
+      "lastname": "Nowicki",
+      "gender": "female",
+      "city": "Sędziejowice",
+      "postalCode": "98-160",
+      "street": "Kamostek 9",
+      "phone": "726326575",
+      "id": 3
+    },
+    {
+      "email": "245888@edu.p.lodz.pl",
+      "firstname": "Wiktor",
+      "lastname": "Nowicki",
+      "gender": "female",
+      "city": "Sędziejowice",
+      "postalCode": "98-160",
+      "street": "Kamostek 9",
+      "phone": "726326575",
+      "id": 4
+    },
+    {
+      "email": "wiktorn0911@gmail.com",
+      "firstname": "Wiktor",
+      "lastname": "Nowicki",
+      "gender": "female",
+      "city": "Sędziejowice",
+      "postalCode": "98-160",
+      "street": "Kamostek",
+      "phone": "726326575",
+      "id": 5
+    },
+    {
+      "email": "juszczyk-krystianooo@wp.pl",
+      "firstname": "Krystian",
+      "lastname": "Juszczyk",
+      "gender": "male",
+      "city": "Grotniki",
+      "postalCode": "95-073",
+      "street": "Długa 57A Jedlicze A",
+      "phone": "692187092",
+      "id": 6
+    },
+    {
+      "email": "juszczyk-krystian@wp.pl",
+      "firstname": "Krystian",
+      "lastname": "Juszczyk",
+      "gender": "male",
+      "city": "Grotniki",
+      "postalCode": "95-073",
+      "street": "Długa 57A Jedlicze A",
+      "phone": "692187092",
+      "id": 7
+    },
+    {
+      "email": "milosz.borczynski@onet.pl",
+      "firstname": "Miłosz",
+      "lastname": "Borczyński",
+      "gender": "male",
+      "city": "Włocławek",
+      "postalCode": "12-123",
+      "street": "Krótka 123",
+      "phone": "420692137",
+      "id": 8
+    },
+    {
+      "email": "245868@edu.p.lodz.pl",
+      "firstname": "Jakub",
+      "lastname": "Magdziak",
+      "gender": "male",
+      "city": "Zadzim",
+      "postalCode": "99-232",
+      "street": "91",
+      "phone": "123456789",
+      "id": 9
+    }
+  ]
+}

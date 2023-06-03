@@ -1,0 +1,45 @@
+@import "variables.scss";
+
+.app-form-header { 
+    font-family: "Roboto Condensed",sans-serif;
+    padding:20px 0px;
+}
+.app-form { 
+    .app-form-select {
+        margin-top: 40px !important;
+        font-family: 'Roboto Condensed' !important;
+    }
+        background-color: lighten($background, 4);
+    input { 
+        font-family: 'Roboto Condensed' !important;
+    }
+    label { 
+        font-family: 'Roboto Condensed' !important;
+        font-weight: bold;
+    }
+    .app-form-submitbutton {
+        font-family: 'Bruno Ace SC';
+        font-weight: 200;
+        margin-top:10px;
+        margin-bottom: 10px;
+        padding:10px 40px;
+        transition: all 0.2s ease-in;
+        background-color: $accentColor;
+        outline-color: lighten($accentColor,10);
+        border: 3px solid darken($accentColor,20);
+        &:hover {
+            background-color: lighten($accentColor,10);
+            border:3px solid $accentColor;
+        }
+    }
+}
+@media screen and (max-width:550px) { 
+    .app-form-success { 
+        h1 { 
+            font-size:22px;
+        }
+        h4 { 
+            font-size:16px;
+        }
+    }
+}

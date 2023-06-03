@@ -1,0 +1,74 @@
+@import 'variables.scss';
+
+@keyframes appear {
+    0% {
+        background: transparent;
+        opacity:0;
+        transform: translateX(-50px);
+    }
+    50% {
+        opacity:0.5;
+    }
+
+    100% {
+        transform: translateX(0px);
+        background: linear-gradient(to right, $accentColor, rgb(27, 27, 39));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        opacity:1;
+    }
+}
+
+.app-mainpage {
+    h1 {
+        animation: appear 0.9s 0.6s, cubic-bezier(0.25, 0.84, 0.44, 1);
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 10px 0px;
+        background: linear-gradient(to right, $accentColor, rgb(27, 27, 39));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 96px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 10px 0px;
+        color: $accentColor;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    p {
+        font-family: 'Roboto Condensed', sans-serif;
+        color:darkblue;
+        font-size:24px;
+    }
+
+    .app-mainpage-button {
+        font-family: 'Bruno Ace SC';
+        font-weight: 200;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 40px;
+        transition: all 0.2s ease;
+        background-color: $accentColor;
+        outline-color: lighten($accentColor, 10);
+        border: 3px solid darken($accentColor, 20);
+        color: lighten($accentColor, 40);
+
+        &:hover {
+            background-color: lighten($accentColor, 10);
+            border: 3px solid $accentColor;
+            color: lighten($accentColor, 66);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@import "variables.scss";
+.app-footer { 
+    background-color: darken(rgba($accentColor,0.4),25);
+    padding:20px;
+    margin:0;
+}
+
+.app-footer span {
+    color: $accentColor
+}
